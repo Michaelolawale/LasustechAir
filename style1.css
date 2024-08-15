@@ -66,10 +66,10 @@ img {
     padding: 0.3rem 0rem;
 
 }
-.sec:hover {
+/* .sec:hover {
     background-color: #4D73FC;
     color: red;
-}
+} */
 .fl-head .sec a {
     /* padding: 0.3rem 0rem; */
 
@@ -203,4 +203,12 @@ input[type="radio"] {
 }
 .flight-sect {
     display: block;
+}
+.inactive {
+    background-color: #ccc;
+    color: #333;
+}
+main {
+    width: 90%;
+    margin: auto;
 }

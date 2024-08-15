@@ -7,6 +7,7 @@ const plusBtn = document.querySelector('.plus')
 const minusBtn = document.querySelector('.minus')
 
 
+
 secBtn.forEach(secbtn => {
    const a = secbtn.querySelector('a')
    secbtn.addEventListener('mouseenter',() => {
@@ -16,6 +17,17 @@ secBtn.forEach(secbtn => {
     a.classList.remove('fit')
    })
 })
+// secBtn.forEach(secbutton => {
+//     secbutton.addEventListener('click', ()=> {
+//         secBtn.forEach(btn => {
+//             btn.classList.remove('fit')
+//             btn.classList.add('inactive')
+
+//         })
+//     })
+//     secbutton.classList.remove('inactive')
+//     secbutton.classList.add('fit')
+// })
 
 function showDetailes(category) {
     document.querySelectorAll('.add').forEach(div => div.style.display = 'none');
