@@ -48,12 +48,12 @@
         </div>
         <div class="booking-section shadow  mb-5">
           <div class="fl-head">
-            <div class="flight-section sec"><h4><a href="#">Flight</a></h4></div>
+            <div class="flight-section sec fit"><h4><a href="#">Flight</a></h4></div>
             <div class="stopover-section sec"><h4><a href="#">StopOver</a></h4></div>
             <div class="manage-section sec"><h4><a href="#">Manage Booking</a></h4></div>
             <div class="flight-sec-section sec"><h4><a href="#">Flight Status</a></h4></div>
           </div>
-          <div class="flight-sect">
+          <div class="flight-sect add">
       
             
             <div class="radio-button">
@@ -104,34 +104,97 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="last-button">
-            <div class="promo-code">
-              <input type="text" placeholder="Enter Promo Code" class="btn-lg">
-            </div>
-            <div class="btn">
-              <button class="btn btn-primary btn-lg shadow-lg rounded">Show Flight</button>
-            </div>
-          </div>
-          <div class="stopover-addon">
-            <div class="stops">
-              <p>When would you like to stop in dubai during your journey</p>
-              <div class="dpt">
-                <input type="radio">
-                <label for="departure">Departure</label>
+            <div class="last-button">
+              <div class="promo-code">
+                <input type="text" placeholder="Enter Promo Code" class="btn-lg">
               </div>
-              <div class="return">
-                <input type="radio" name="" id="">
-                <label for="return">Return</label>
+              <div class="btn">
+                <button class="btn btn-primary btn-lg shadow-lg rounded">Show Flight</button>
               </div>
             </div>
-            <div class="stay-sect">
-              <p>How many days would you stay in Dubai?</p>
-              <button>&minus;</button>
-              <div class="count">0</div>
-              <button>&plus;</button>
+          </div>
+          
+          <div class="other-section">
+            <div class="stopover-add add">
+              <div class="radio-button">
+                <input type="radio" class="input">
+                <label for="one">One way</label>
+              </div>
+              <div class="radio-button">
+                <input type="radio" class="input">
+                <label for="two">Round-trip</label>
+              </div>
+              <div class="radio-button">
+                <input type="radio" class="input" >
+                <label for="three">Multi-City</label>
+              </div>
+              <div class="booking-info">
+                <div class="left-section">
+                  <div class="first-input">
+                  <label for="input">From</label>
+                  <input type="text" placeholder="From">
+                  
+                </div>
+                <div class="icon">
+                  <img src="./img/sort.png" alt="">
+                </div>
+                <div class="to-input" >
+                  <label for="to">To</label>
+                  <input type="text" placeholder="To">
+                </div>
+                </div>
+                <div class="right-section">
+                  <div class="departing">
+                    <h5 class="pd set">
+                      Departing
+                    </h5>
+                    <div class="pd">Aug 18,2023</div>
+                  </div>
+                  <div class="returning">
+                    <h5 class="pd set">
+                      Returning
+                    </h5>
+                    <div class="pd">Aug 18,2023</div>
+                  </div>
+                  <div class="passenger pd">
+                    <h5 class="pd set">
+                      Passangers and Class
+                    </h5>
+                    9 Passengers/Business
+                  </div>
+                </div>
+              </div>
+              <div class="stops stepover-added">
+                <div class="fst">
+                  <p>When would you like to stop in dubai during your journey</p>
+                  <div class="dpt">
+                    <input type="radio">
+                    <label for="departure">Departure</label>
+                  </div>
+                  <div class="return">
+                    <input type="radio" name="" id="">
+                    <label for="return">Return</label>
+                  </div>
+                </div>
+                <div class="stay-sect">
+                  <p>How many days would you stay in Dubai?</p>
+                  <button class="minus">&minus;</button>
+                  <div class="count">0</div>
+                  <button class="plus">&plus;</button>
+                </div>
+              </div>
+              
+            </div>
+            <div class="mb-section add">
+              <h2>Manage bookies</h2>
+            </div>
+            <div class="fs-section add">
+              <h2>By Route</h2>
             </div>
           </div>
+
+          
+          
         </div>
       </section>
       <main>
@@ -140,6 +203,7 @@
         </div>
       </main>
 </body>
+<script src="flight.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </html>

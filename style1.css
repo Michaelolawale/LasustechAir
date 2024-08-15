@@ -64,6 +64,15 @@ img {
     width: calc(25% - 1px);
     color: #fff;
     padding: 0.3rem 0rem;
+
+}
+.sec:hover {
+    background-color: #4D73FC;
+    color: red;
+}
+.fl-head .sec a {
+    /* padding: 0.3rem 0rem; */
+
 }
 .fl-head h4 {
     
@@ -84,6 +93,10 @@ img {
    text-decoration: none;
    font-size: 20px;
    color: #333;
+}
+.fl-head .fit, .fit a  {
+    background-color: #4D73FC;
+    color: #fff;
 }
 .radio-button {
     font-size: 25px;
@@ -154,4 +167,40 @@ input[type="radio"] {
 }
 .btn {
     /* box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.1); */
+}
+
+/* .add {
+    display: none;
+}
+.flight-sect {
+    display: none;
+}
+.stopover-add {
+    display: block;
+} */
+
+.stepover-added {
+    display: flex;
+   font-size: 20px;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+.dpt,.return, .stay-sect button, .count{
+    display: inline;
+}
+.stay-sect button {
+    padding: 0.4rem 0.4rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* margin: 0rem 0.5rem; */
+}
+.count {
+    margin: 0rem 0.5rem;
+}
+.add {
+    display: none;
+}
+.flight-sect {
+    display: block;
 }
