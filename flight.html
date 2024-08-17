@@ -198,22 +198,50 @@
         </div>
       </section>
       <main>
-        <div class="filter-section">
-          <div class="hd-filter">
-            <h3>Filter Section</h3>
+        <div class="filter-section shadow">
+          <div class="fs-hd">
+            <h4>Filter Search</h4>
           </div>
-          <p>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-              Toggle width collapse
-            </button>
+          <p class="d-inline-flex gap-1 fs" data-bs-toggle="collapse" href="#collapseExamples" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a class=" " >
+              Cabin
+            </a>
+            <span>&uparrow;</span>
           </p>
-          <div style="min-height: 120px;">
-            <div class="collapse collapse-horizontal" id="collapseWidthExample">
-              <div class="card card-body" style="width: 300px;">
-                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+          <div class="collapse" id="collapseExamples">
+            <div class="card card-body">
+              <div class="boxes">
+                <div class="box">
+                Economy Class
               </div>
+              <div class="box">Business Class</div>
+              <div class="box">First Class</div>
+              <div class="box">Premium Economy</div>
+              </div>
+              
             </div>
           </div>
+          <div class="price-range">
+            <p class="d-inline-flex gap-1 fs" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a class=" " >
+              Price Range
+            </a>
+            <span>&uparrow;</span>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <label for="customRange1" class="form-label">
+                <h6>100$</h6>
+                <h6>300$</h6>
+              </label>
+              <input type="range" class="form-range" id="customRange1">
+            </div>
+          </div>
+          
+        </div>
+        <div class="container">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam in dolores iusto excepturi blanditiis cupiditate quaerat eum molestiae illo alias? Officia earum vel doloribus iusto illo fugiat perspiciatis eum maxime!\
+          </p>
         </div>
       </main>
 </body>
