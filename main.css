@@ -1,0 +1,148 @@
+@media screen and (min-width: 992px)
+{
+    .navbar-nav{
+        gap: 32px;
+    }
+    
+}
+.navbar li a{
+    font-family: "inter" sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 992px)
+{
+    .navbar-nav{
+        gap: 32px;
+    }
+    
+}
+body{
+  background-color: #ececf2 !important;
+}
+
+.navbar li a{
+    font-family: "inter" sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+  #intro {
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/img/8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1; 
+}
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58px;
+    }
+  }
+.img10{
+    width: 200px;
+    height: 100px;
+    animation: scroll 60s linear infinite;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .slider {
+    margin-top: 20px;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-500%)}
+  }
+  /* Background and Navigation Bar */
+
+.navbar {
+  background-color: #2C3E50; 
+}
+
+.navbar a {
+  color: #F39C12 !important; /* Gold for active links */
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #F39C12; /* Gold */
+  border-color: #F39C12;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: #D68910; /* Darker Gold on hover */
+  border-color: #D68910;
+}
+
+h3 {
+  color: #FFFFFF !important;
+}
+
+p, a, span, li {
+  color: #BDC3C7; /* Light Gray for text */
+}
+
+/* Footer (if applicable) */
+.footer {
+  background-color: #2C3E50; /* Midnight Blue */
+  color: #BDC3C7; /* Light Gray */
+}
+
+footer a {
+  color: #F39C12; /* Gold for links */
+}
+
+footer a:hover {
+  color: #D68910; /* Darker Gold on hover */
+}
+/* Navigation Bar */
+.navbar {
+  background-color: #2C3E50; /* Midnight Blue */
+}
+.navbar a {
+  color: #D4AC0D !important; /* Dark Gold */
+}
+.navbar a:hover {
+  color: #B7950B !important; /* Darker Gold on hover */
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #D4AC0D !important; 
+  border-color: #D4AC0D !important;
+  color: #FFFFFF !important;
+}
+.btn-primary:hover {
+  background-color: #B7950B !important; 
+  border-color: #B7950B !important;
+}
+
+
+
