@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style1.css">
     <link rel="icon" type="x-icon" href="/img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -202,25 +203,28 @@
           <div class="fs-hd">
             <h4>Filter Search</h4>
           </div>
-          <p class="d-inline-flex gap-1 fs" data-bs-toggle="collapse" href="#collapseExamples" role="button" aria-expanded="false" aria-controls="collapseExample">
-            <a class=" " >
-              Cabin
-            </a>
-            <span>&uparrow;</span>
-          </p>
-          <div class="collapse" id="collapseExamples">
-            <div class="card card-body">
-              <div class="boxes">
-                <div class="box">
-                Economy Class
+          <div class="class-section">
+            <p class="d-inline-flex gap-1 fs" data-bs-toggle="collapse" href="#collapseExamples" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <a class=" " >
+                Cabin
+              </a>
+              <span>&uparrow;</span>
+            </p>
+            <div class="collapse show" id="collapseExamples">
+              <div class="card card-body">
+                <div class="boxes">
+                  <div class="box">
+                  Economy Class
+                </div>
+                <div class="box">Business Class</div>
+                <div class="box">First Class</div>
+                <div class="box">Premium Economy</div>
+                </div>
+                
               </div>
-              <div class="box">Business Class</div>
-              <div class="box">First Class</div>
-              <div class="box">Premium Economy</div>
-              </div>
-              
             </div>
           </div>
+
           <div class="price-range">
             <p class="d-inline-flex gap-1 fs" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
             <a class=" " >
@@ -228,7 +232,7 @@
             </a>
             <span>&uparrow;</span>
             </p>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse show" id="collapseExample">
               <label for="customRange1" class="form-label">
                 <h6>100$</h6>
                 <h6>300$</h6>
@@ -236,12 +240,230 @@
               <input type="range" class="form-range" id="customRange1">
             </div>
           </div>
-          
+          <div class="airline-section">
+            <p class="d-inline-flex gap-1 fs" data-bs-toggle="collapse" href="#airline" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <a class=" " >
+                Airlines
+              </a>
+              <span>&uparrow;</span>
+              </p>
+              <div class="collapse show" id="airline">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Emirates Airline <span>(10)</span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Qatar Airline <span>(09)</span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Saudi Arabian Airline <span>(20)</span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Air Asia <span>(14)</span>
+                  </label>
+                </div>
+              </div>
+              <div class="stops-section">
+                <p class="d-inline-flex gap-1 fs" data-bs-toggle="collapse" href="#stops" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <a class=" " >
+                    Stops
+                  </a>
+                  <span>&uparrow;</span>
+                </p>
+                <div class="collapse" id="stops">
+                  <div class="card card-body">
+                    <div class="boxes">
+                      <div class="box">
+                      Any Stop
+                    </div>
+                    <div class="box">1 Stop</div>
+                    <div class="box">2 Stop</div>
+                    <div class="box">Non-Stop</div>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                      <label class="form-check-label" for="flexCheckIndeterminate">
+                        Allow Overnight Sleepover
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="departure-section">
+            <p class="d-inline-flex gap-1 fs" data-bs-toggle="collapse" href="#departure" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <a class=" " >
+                Departure
+              </a>
+              <span>&uparrow;</span>
+            </p>
+            <div class="collapse show" id="departure">
+              <div class="card card-body">
+                <div class="boxes">
+                  <div class="box">
+                    <i class="bi bi-alarm"></i>
+                  Early Morning
+                  <h6>4:00am - 5:59am</h6>
+                </div>
+                <div class="box"><i class="bi bi-alarm"></i>
+                  Morning
+                  <h6>4:00am - 5:59am</h6>
+                </div>
+                <div class="box"><i class="bi bi-alarm"></i>
+                  Afternoon
+                  <h6>4:00am - 5:59am</h6>
+                </div>
+                  
+                <div class="box"><i class="bi bi-alarm"></i>
+                  Evening<h6>4:00am - 5:59am</h6>
+                </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
         </div>
         <div class="container">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam in dolores iusto excepturi blanditiis cupiditate quaerat eum molestiae illo alias? Officia earum vel doloribus iusto illo fugiat perspiciatis eum maxime!\
-          </p>
+          <div class="sub-airline shadow">
+            <div class="details-sec">
+              <div class="first">
+                <img src="./img/f-dubai.png" alt="">
+                <h6>Feel dubai Airline</h6>
+                <label for="f-dubai">Boeing 777-90</label>
+              </div>
+              <div class="middle">
+                
+                <div class="to">
+                  12:00 
+                  <label for="" class="place">DUB</label>
+                  
+                  To
+                </div>
+                <div class="line">
+                  <i class="fa-duotone fa-solid fa-horizontal-rule"></i>
+                  <img class="pd" src="./img/plane-departure-solid.svg" alt="">
+                  <i class="fa-duotone fa-solid fa-horizontal-rule"></i>
+                </div>
+                <div class="from">From
+                  12:50
+                  <label for="" class="place">SHJ</label></div>
+              </div>
+              <div class="end">
+                <h6>price <span>$240</span></h6>
+              <button type="button" class="btn btn-primary shadow">Book Now</button>  
+              </div>
+            </div>
+            <div class="more-details"></div>
+          </div>
+          <div class="sub-airline shadow">
+            <div class="details-sec">
+              <div class="first">
+                <img src="./img/f-dubai.png" alt="">
+                <h6>Feel dubai Airline</h6>
+                <label for="f-dubai">Boeing 777-90</label>
+              </div>
+              <div class="middle">
+                
+                <div class="to">
+                  12:00 
+                  <label for="" class="place">DUB</label>
+                  
+                  To
+                </div>
+                <div class="line">
+                  <i class="fa-duotone fa-solid fa-horizontal-rule"></i>
+                  <img class="pd" src="./img/plane-departure-solid.svg" alt="">
+                  <i class="fa-duotone fa-solid fa-horizontal-rule"></i>
+                </div>
+                <div class="from">From
+                  12:50
+                  <label for="" class="place">SHJ</label></div>
+              </div>
+              <div class="end">
+                <h6>price <span>$240</span></h6>
+              <button type="button" class="btn btn-primary shadow">Book Now</button>  
+              </div>
+            </div>
+            <div class="more-details"></div>
+          </div>
+
+          <div class="sub-airline shadow">
+            <div class="details-sec">
+              <div class="first">
+                <img src="./img/f-dubai.png" alt="">
+                <h6>Feel dubai Airline</h6>
+                <label for="f-dubai">Boeing 777-90</label>
+              </div>
+              <div class="middle">
+                
+                <div class="to">
+                  12:00 
+                  <label for="" class="place">DUB</label>
+                  
+                  To
+                </div>
+                <div class="line">
+                  <i class="fa-duotone fa-solid fa-horizontal-rule"></i>
+                  <img class="pd" src="./img/plane-departure-solid.svg" alt="">
+                  <i class="fa-duotone fa-solid fa-horizontal-rule"></i>
+                </div>
+                <div class="from">From
+                  12:50
+                  <label for="" class="place">SHJ</label></div>
+              </div>
+              <div class="end">
+                <h6>price <span>$240</span></h6>
+              <button type="button" class="btn btn-primary shadow">Book Now</button>  
+              </div>
+            </div>
+            <div class="more-details"></div>
+          </div>
+          <div class="sub-airline shadow">
+            <div class="details-sec">
+              <div class="first">
+                <img src="./img/f-dubai.png" alt="">
+                <h6>Feel dubai Airline</h6>
+                <label for="f-dubai">Boeing 777-90</label>
+              </div>
+              <div class="middle">
+                
+                <div class="to">
+                  12:00 
+                  <label for="" class="place">DUB</label>
+                  
+                  To
+                </div>
+                <div class="line">
+                  <i class="fa-duotone fa-solid fa-horizontal-rule"></i>
+                  <img class="pd" src="./img/plane-departure-solid.svg" alt="">
+                  <i class="fa-duotone fa-solid fa-horizontal-rule"></i>
+                </div>
+                <div class="from">From
+                  12:50
+                  <label for="" class="place">SHJ</label></div>
+              </div>
+              <div class="end">
+                <h6>price <span>$240</span></h6>
+              <button type="button" class="btn btn-primary shadow">Book Now</button>  
+              </div>
+            </div>
+            <div class="more-details"></div>
+          </div>
+
+          <div class="btn">
+            <button class="btn btn-primary btn-lg shadow-lg rounded">Proceed</button>
+          </div>
         </div>
       </main>
 </body>

@@ -23,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 15px;
-    height: 200vh;
+    height: 350vh;
 }
 img {
     max-width: 100%;
@@ -220,6 +220,7 @@ main {
 .filter-section {
     width: 50%;
     padding: 1rem 1.5rem;
+    border-radius: 10px;
 }
 .collapse {
     border: none;
@@ -242,6 +243,9 @@ main {
     color: #333;
     font-size: 20px;
 }
+.airline-section, .stops-section, .departure-section {
+    margin: 0.5rem 0rem;
+}
 .boxes {
   display: grid;
   grid-template-columns: 1fr 1fr ;
@@ -257,6 +261,8 @@ main {
     font-weight: bold;
     background-color: #eff7f6;
     border-radius: 10px;
+    color: #4D73FC;
+    align-items: center;
 }
 .form-label {
     width: 100%;
@@ -267,3 +273,40 @@ main {
     border-bottom: 1px solid #333;
     margin: 1rem 0rem;
 }
+.form-check {
+    margin: 0.5rem 0rem;
+}
+.form-check-label {
+    display: flex;
+    justify-content: space-between;
+}
+.sub-airline {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+}
+.first img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.details-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details-sec .middle .to,.from,.line{
+    display: inline;
+}
+/* .to label{
+    display: block;
+} */
+/* .line {
+    display: flex;
+} */
+ .pd {
+    width: 20px;
+ }
+ .place {
+    display: block;
+ }

@@ -65,3 +65,12 @@ minusBtn.addEventListener('click', ()=> {
         updateCounter()
     }
 })
+[
+    {
+        'id': 1,
+        'name': 'Feel dubai airline',
+        'img': '',
+        'price': 240,
+        
+    }
+]
