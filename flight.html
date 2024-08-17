@@ -48,11 +48,15 @@
             </div>
         </div>
         <div class="booking-section shadow  mb-5">
-          <div class="fl-head">
-            <div class="flight-section sec fit"><h4><a href="#">Flight</a></h4></div>
-            <div class="stopover-section sec"><h4><a href="#">StopOver</a></h4></div>
-            <div class="manage-section sec"><h4><a href="#">Manage Booking</a></h4></div>
-            <div class="flight-sec-section sec"><h4><a href="#">Flight Status</a></h4></div>
+          <div class="btn-group flight-head" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary sec" for="btnradio1">Radio 1</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary sec" for="btnradio2">Radio 2</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary sec" for="btnradio3">Radio 3</label>
           </div>
           <div class="flight-sect add">
       
@@ -213,12 +217,12 @@
             <div class="collapse show" id="collapseExamples">
               <div class="card card-body">
                 <div class="boxes">
-                  <div class="box">
+                  <div class="box btn btn-outline-primary">
                   Economy Class
                 </div>
-                <div class="box">Business Class</div>
-                <div class="box">First Class</div>
-                <div class="box">Premium Economy</div>
+                <div class="box btn btn-outline-primary">Business Class</div>
+                <div class="box btn btn-outline-primary">First Class</div>
+                <div class="box btn btn-outline-primary">Premium Economy</div>
                 </div>
                 
               </div>
@@ -310,21 +314,21 @@
             <div class="collapse show" id="departure">
               <div class="card card-body">
                 <div class="boxes">
-                  <div class="box">
+                  <div class="box btn btn-outline-primary">
                     <i class="bi bi-alarm"></i>
                   Early Morning
                   <h6>4:00am - 5:59am</h6>
                 </div>
-                <div class="box"><i class="bi bi-alarm"></i>
+                <div class="box btn btn-outline-primary"><i class="bi bi-alarm"></i>
                   Morning
                   <h6>4:00am - 5:59am</h6>
                 </div>
-                <div class="box"><i class="bi bi-alarm"></i>
+                <div class="box btn btn-outline-primary"><i class="bi bi-alarm"></i>
                   Afternoon
                   <h6>4:00am - 5:59am</h6>
                 </div>
                   
-                <div class="box"><i class="bi bi-alarm"></i>
+                <div class="box btn btn-outline-primary"><i class="bi bi-alarm"></i>
                   Evening<h6>4:00am - 5:59am</h6>
                 </div>
                   
@@ -461,8 +465,8 @@
             <div class="more-details"></div>
           </div>
 
-          <div class="btn">
-            <button class="btn btn-primary btn-lg shadow-lg rounded">Proceed</button>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2 mt-4 shadow" type="button">Proceed</button>
           </div>
         </div>
       </main>

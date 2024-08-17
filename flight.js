@@ -8,15 +8,15 @@ const minusBtn = document.querySelector('.minus')
 
 
 
-secBtn.forEach(secbtn => {
-   const a = secbtn.querySelector('a')
-   secbtn.addEventListener('mouseenter',() => {
-    a.classList.add('fit')
-   })
-   secbtn.addEventListener('mouseleave',() => {
-    a.classList.remove('fit')
-   })
-})
+// secBtn.forEach(secbtn => {
+//    const a = secbtn.querySelector('a')
+//    secbtn.addEventListener('mouseenter',() => {
+//     a.classList.add('fit')
+//    })
+//    secbtn.addEventListener('mouseleave',() => {
+//     a.classList.remove('fit')
+//    })
+// })
 // secBtn.forEach(secbutton => {
 //     secbutton.addEventListener('click', ()=> {
 //         secBtn.forEach(btn => {
@@ -71,6 +71,6 @@ minusBtn.addEventListener('click', ()=> {
         'name': 'Feel dubai airline',
         'img': '',
         'price': 240,
-        
+
     }
 ]

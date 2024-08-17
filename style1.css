@@ -60,7 +60,12 @@ img {
     justify-content: flex-start;
     margin-bottom: 20px;
 }
-.fl-head .sec {
+.flight-head {
+    display: flex;
+    gap: 1px;
+    width: 100%;
+}
+.flight-head .sec {
     text-align: center;
     background-color: #ddd;
     box-sizing: border-box;
@@ -244,7 +249,7 @@ main {
     font-size: 20px;
 }
 .airline-section, .stops-section, .departure-section {
-    margin: 0.5rem 0rem;
+    margin: 0.1rem 0rem;
 }
 .boxes {
   display: grid;
@@ -256,7 +261,7 @@ main {
     text-align: center;
     box-sizing: border-box;
     border: 1px solid black;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 1rem;
     font-size: 20px;
     font-weight: bold;
     background-color: #eff7f6;
@@ -295,6 +300,7 @@ main {
     justify-content: space-between;
     align-items: center;
 }
+
 .details-sec .middle .to,.from,.line{
     display: inline;
 }
