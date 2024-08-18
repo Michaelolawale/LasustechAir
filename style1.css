@@ -331,3 +331,6 @@ main {
 .modal-body {
     text-align: center;
 }
+button {
+    color: #F39C12;
+}
