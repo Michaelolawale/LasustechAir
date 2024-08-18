@@ -10,7 +10,27 @@
     font-size: 16px;
 }
 
+.navbar {
+    background-color: #2C3E50; 
+  }
+  .navbar a {
+    color: #D4AC0D !important; 
+  }
+  .navbar a:hover {
+    color: #B7950B !important; 
+  }
+  
 
+  .btn-primary {
+    background-color: #D4AC0D !important; 
+    border-color: #D4AC0D !important;
+    color: #FFFFFF !important;
+  }
+  .btn-primary:hover {
+    background-color: #B7950B !important; 
+    border-color: #B7950B !important;
+  }
+  
 /* FLIGHT CSS */
 * {
     margin: 0;

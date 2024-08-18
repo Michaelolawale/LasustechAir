@@ -86,51 +86,40 @@ body{
 }
 
 .navbar a {
-  color: #F39C12 !important; /* Gold for active links */
+  color: #F39C12 !important; 
 }
 
-/* Button Styling */
-.btn-primary {
-  background-color: #F39C12; /* Gold */
-  border-color: #F39C12;
-  color: #FFFFFF;
-}
-
-.btn-primary:hover {
-  background-color: #D68910; /* Darker Gold on hover */
-  border-color: #D68910;
-}
 
 h3 {
   color: #FFFFFF !important;
 }
 
 p, a, span, li {
-  color: #BDC3C7; /* Light Gray for text */
+  color: #BDC3C7; 
 }
 
 /* Footer (if applicable) */
 .footer {
-  background-color: #2C3E50; /* Midnight Blue */
-  color: #BDC3C7; /* Light Gray */
+  background-color: #2C3E50; 
+  color: #BDC3C7;
 }
 
 footer a {
-  color: #F39C12; /* Gold for links */
+  color: #F39C12; 
 }
 
 footer a:hover {
-  color: #D68910; /* Darker Gold on hover */
+  color: #D68910; 
 }
 /* Navigation Bar */
 .navbar {
-  background-color: #2C3E50; /* Midnight Blue */
+  background-color: #2C3E50; 
 }
 .navbar a {
-  color: #D4AC0D !important; /* Dark Gold */
+  color: #D4AC0D !important; 
 }
 .navbar a:hover {
-  color: #B7950B !important; /* Darker Gold on hover */
+  color: #B7950B !important; 
 }
 
 /* Button Styling */
