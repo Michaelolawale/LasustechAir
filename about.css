@@ -24,7 +24,8 @@ body {
     background-size: cover;
     font-size: 15px;
     height: 350vh;
-    background-color: #ECECF2;
+    /* background-color: #ECECF2; */
+    background-color: #0606b3;
 }
 img {
     width: 100%;
@@ -59,20 +60,20 @@ img {
     align-items: center;
 }
 
-.carousel {
+/* .carousel {
     width: 900px;
 }
 .carousel img {
     object-fit: cover;
-}
-main {
+} */
+/* main {
     display: grid;
     justify-content: center;
 }
 .carousel-section p {
     width: 70%;
-}
-.carousel-section {
+} */
+/* .carousel-section {
     box-sizing: border-box;
     border-radius: 10px;
     padding: 1rem 1.5rem;
@@ -80,4 +81,45 @@ main {
     display: grid;
     justify-content: center;
     text-align: center;
+} */
+ img {
+    width: 100%;
+ }
+.cs {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    
+}
+.cs img {
+    box-sizing: border-box;
+    border-radius: 20px;
+    max-height: 600px;
+    object-fit: cover;
+}
+.history-gallery {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.history-section {
+    text-align: left;
+    border-radius: 10px;
+    width: 50%;
+    padding: 1.5rem ;
+}
+.gallery-section {
+    width: 50%;
+}
+.gallery-section img {
+    border-radius: 10px;
+    width: 95%;
+    /* max-width: 250px; */
+}
+.card-body {
+    width: 100%;
 }

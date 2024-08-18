@@ -19,12 +19,13 @@
 }
 body {
     background-color: #eff7f6;
-    background-image: url(./img/cf2.png);
+    /* background-image: url(./img/cf2.png); */
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 15px;
     height: 350vh;
     background-color: #ECECF2;
+    background-color: rebeccapurple;
 }
 img {
     max-width: 100%;
