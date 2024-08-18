@@ -24,6 +24,7 @@ body {
     background-size: cover;
     font-size: 15px;
     height: 350vh;
+    background-color: #ECECF2;
 }
 img {
     max-width: 100%;
@@ -53,14 +54,15 @@ img {
     justify-content: space-evenly;
     align-items: center;
 }
-.fl-head {
+/* .fl-head {
     display: flex;
     gap: 1px;
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 20px;
-}
+} */
 .flight-head {
+    margin-bottom: 20px;
     display: flex;
     gap: 1px;
     width: 100%;
@@ -71,8 +73,8 @@ img {
     box-sizing: border-box;
     border-radius: 4px;
     width: calc(25% - 1px);
-    color: #fff;
-    padding: 0.3rem 0rem;
+    color: #333;
+    padding: 0.5rem 0rem;
 
 }
 /* .sec:hover {
@@ -316,3 +318,15 @@ main {
  .place {
     display: block;
  }
+.modal-footer a {
+    color: #eff7f6;
+    text-decoration: none;
+}
+.modal-title {
+    width: 100%;
+    background-color: #eff7f6;
+    text-align: center;
+}
+.modal-body {
+    text-align: center;
+}

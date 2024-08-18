@@ -1,0 +1,83 @@
+@media screen and (min-width: 992px)
+{
+    .navbar-nav{
+        gap: 32px;
+    }
+}
+.navbar li a{
+    font-family: "inter" sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/* FLIGHT CSS */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    /* background-color: #eff7f6;
+    background-image: url(./img/cf2.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    height: 350vh;
+    background-color: #ECECF2;
+}
+img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+/* img {
+    max-width: 500px;
+} */
+.fl {
+    font-weight: bolder;
+}
+.hd img {
+    width: 100%;
+}
+.plane-img {
+    width: 29%;
+}
+.bag-img {
+    width: 17%;
+}
+.flight-listing {
+    margin-top: 50px;
+    
+}
+.hd {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carousel {
+    width: 900px;
+}
+.carousel img {
+    object-fit: cover;
+}
+main {
+    display: grid;
+    justify-content: center;
+}
+.carousel-section p {
+    width: 70%;
+}
+.carousel-section {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
