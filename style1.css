@@ -45,8 +45,6 @@ body {
     background-size: cover;
     font-size: 15px;
     height: 350vh;
-    background-color: #ECECF2;
-    background-color: rebeccapurple;
 }
 img {
     max-width: 100%;
@@ -201,6 +199,7 @@ input[type="radio"] {
 .btn {
     /* box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.1); */
 }
+.pd
 
 /* .add {
     display: none;
@@ -334,9 +333,7 @@ main {
 /* .line {
     display: flex;
 } */
- .pd {
-    width: 20px;
- }
+
  .place {
     display: block;
  }
@@ -354,4 +351,31 @@ main {
 }
 button {
     color: #F39C12;
+}
+.line .pd {
+    width: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .booking-info {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .booking-section {
+        padding: 1rem;
+    }
+    .right-section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .filter-section {
+        width: 100%;
+    }
+    
 }
