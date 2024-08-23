@@ -164,3 +164,8 @@ img {
 h1, h2,h5,p{
     color: white;
 }
+@media screen and (max-width: 900px) {
+    section {
+      overflow-x: hidden;
+    }
+  }
