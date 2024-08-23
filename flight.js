@@ -28,6 +28,31 @@ const minusBtn = document.querySelector('.minus')
 //     secbutton.classList.remove('inactive')
 //     secbutton.classList.add('fit')
 // })
+const boxes = document.querySelectorAll('.boxes.first-set .box')
+// const bnxn = document.querySelectorAll('.boxes')
+
+boxes.forEach(box => {
+    box.addEventListener('click', () => {
+        console.log('heyy')
+        boxes.forEach(boxn => {
+            boxn.classList.remove('active')
+        })
+        box.classList.add('active')
+    } )
+})
+
+const boxess = document.querySelectorAll('.boxes.second-set .box')
+// const bnxn = document.querySelectorAll('.boxes')
+
+boxess.forEach(box => {
+    box.addEventListener('click', () => {
+        console.log('heyy')
+        boxess.forEach(boxn => {
+            boxn.classList.remove('active')
+        })
+        box.classList.add('active')
+    } )
+})
 
 function showDetailes(category) {
     document.querySelectorAll('.add').forEach(div => div.style.display = 'none');
@@ -65,12 +90,13 @@ minusBtn.addEventListener('click', ()=> {
         updateCounter()
     }
 })
-[
-    {
-        'id': 1,
-        'name': 'Feel dubai airline',
-        'img': '',
-        'price': 240,
+// [
+//     {
+//         'id': 1,
+//         'name': 'Feel dubai airline',
+//         'img': '',
+//         'price': 240,
 
-    }
-]
+//     }
+// ]
+
